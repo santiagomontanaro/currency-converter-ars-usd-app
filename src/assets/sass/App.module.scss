@@ -1,0 +1,41 @@
+@use './mixins' as *;
+@import './variables';
+
+body {
+  font-family: 'Graphie-bold', sans-serif;
+  font-size: 14px;
+  color: $white;
+}
+
+.App {
+  @include flex(0, center, center, column);
+  min-height: 200vh;
+  width: 100%;
+  background-color: $bgDarker;
+
+  .App__noise {
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../img/noise-bg.png');
+    opacity: 0.03;
+  }
+
+  .App__container {
+    @include flex(0, normal, center, column);
+    width: 100%;
+    z-index: 100;
+  }
+}
+
+/* media query for desktop */
+@media (min-width: 900px) {
+  .App {
+    min-height: 100vh;
+
+    .App__container {
+      @include flex(0, center, center, row);
+      width: 80%;
+    }
+  }
+}

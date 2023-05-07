@@ -1,0 +1,59 @@
+/* primary colors */
+$bgDarker: #141518;
+$bgCardDarkGreyish: #27292F;
+$lemonYellow: #F3EF52;
+
+/* neutral colors */
+$white: #FFFFFF;
+$black: #000000;
+$lightGrey: #f5f5f548;
+$Grey: #555555b6;
+
+/* main font */
+@font-face {
+  font-family: 'Graphie-bold';
+  src: url('../fonts/Graphie/Graphie-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Graphie-book';
+  src: url('../fonts/Graphie/Graphie-Book.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Graphie-extraBold';
+  src: url('../fonts/Graphie/Graphie-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Graphie-extraLight';
+  src: url('../fonts/Graphie/Graphie-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Graphie-light';
+  src: url('../fonts/Graphie/Graphie-Light.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Graphie-regular';
+  src: url('../fonts/Graphie/Graphie-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Graphie-semiBold';
+  src: url('../fonts/Graphie/Graphie-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Graphie-thin';
+  src: url('../fonts/Graphie/Graphie-Thin.otf') format('opentype');
+  font-weight: 100;
+}

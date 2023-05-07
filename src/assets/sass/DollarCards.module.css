@@ -1,0 +1,147 @@
+/* primary colors */
+/* neutral colors */
+/* main font */
+@font-face {
+  font-family: "Graphie-bold";
+  src: url("../fonts/Graphie/Graphie-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Graphie-book";
+  src: url("../fonts/Graphie/Graphie-Book.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Graphie-extraBold";
+  src: url("../fonts/Graphie/Graphie-ExtraBold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Graphie-extraLight";
+  src: url("../fonts/Graphie/Graphie-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Graphie-light";
+  src: url("../fonts/Graphie/Graphie-Light.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Graphie-regular";
+  src: url("../fonts/Graphie/Graphie-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Graphie-semiBold";
+  src: url("../fonts/Graphie/Graphie-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Graphie-thin";
+  src: url("../fonts/Graphie/Graphie-Thin.otf") format("opentype");
+  font-weight: 100;
+}
+.sectionCard {
+  gap: 2rem;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+  text-align: center;
+}
+.sectionCard h1,
+.sectionCard h2,
+.sectionCard h3,
+.sectionCard h4 {
+  margin: 0;
+}
+.sectionCard .sectionCard__card {
+  background-color: #27292F;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.sectionCard .sectionCard__card hr {
+  width: 90%;
+  border: 1px solid rgba(245, 245, 245, 0.2823529412);
+  opacity: 0.1;
+}
+.sectionCard .sectionCard__card .card__dollarName {
+  gap: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2em;
+}
+.sectionCard .sectionCard__card .card__dollarName .dollarName__value {
+  gap: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.sectionCard .sectionCard__card .card__dollarName .text__dollarIcon,
+.sectionCard .sectionCard__card .card__dollarName .text__dollarBlue,
+.sectionCard .sectionCard__card .card__dollarName .text__dollarGreen {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.sectionCard .sectionCard__card .card__dollarName .text__dollarBlue {
+  color: #006caa;
+}
+.sectionCard .sectionCard__card .card__dollarName .text__dollarGreen {
+  color: #00b170;
+}
+.sectionCard .sectionCard__card .card__dollarName h3 {
+  font-family: "Graphie-extraLight", sans-serif;
+  font-size: 2.5rem;
+}
+.sectionCard .sectionCard__card .card__dollarName h4 {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+}
+.sectionCard .sectionCard__card .card__price {
+  gap: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1.5em;
+}
+.sectionCard .sectionCard__card .card__price .price__value {
+  gap: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sectionCard .sectionCard__card .card__price .price__value span {
+  font-family: "Graphie-extraLight", sans-serif;
+}
+.sectionCard .sectionCard__card .card__price .price__value h2 {
+  font-family: "Graphie-book", sans-serif;
+  font-size: 1.1rem;
+}
+.sectionCard .sectionCard__card .card__update {
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1em;
+  font-family: "Graphie-light", sans-serif;
+  color: rgba(245, 245, 245, 0.2823529412);
+}
+
+@media (min-width: 900px) {
+  .sectionCard {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=DollarCards.module.css.map */

@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Dolar App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Additional information
+1. Objective: To provide up-to-date information on the exchange rate of the US dollar in Argentina.
+2. Target audience: Users interested in knowing the updated exchange rate of the US dollar in Argentina, such as investors, tourists, businessmen, and citizens in general.
+3. Main features:
+   - Updated information on the exchange rate of the US dollar in Argentina for both buying and selling.
+   - Currency conversion tool to allow users to calculate values in different exchange rates.
+4. Design:
+   - Simple and user-friendly interface with a clean and attractive design.
+   - Accessibility: the app is responsive to different screen sizes and compatible with different web browsers and mobile devices.
+5. Data sources: The app relies on the Swagger app developed by [enzonotario](https://github.com/enzonotario/esjs-dolar-api), which in turn obtains updated information on the exchange rate of the US dollar from the [Dolar Hoy](https://www.dolarhoy.com/) website.
 
-## Available Scripts
+## Conversion tool
+Users will be able to enter the amount of pesos or dollars they want to convert, and the calculator will instantly provide the equivalent amount in the other currency, using the app's updated exchange rate. This currency conversion tool will be very useful for users who need to transact in different currencies, whether it be for online purchases, international travel, or financial operations in different markets. 
 
-In the project directory, you can run:
+In summary, "Dolar App" will provide updated information on the exchange rate of the US dollar in Argentina and a currency conversion calculator to allow users to easily convert between pesos and dollars.
 
-### `npm start`
+## Technologies used
+- React
+- API obtained from [Dólar API Argentina](https://dolar-api-argentina.vercel.app/#/)
+- Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Description in Spanish
+A continuación, te presento una descripción detallada de la aplicación web "Dolar App" que informa sobre el dólar en Argentina:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Información general
+1. Objetivo: Proporcionar información actualizada sobre el tipo de cambio del dólar estadounidense en Argentina.
+2. Público objetivo: Usuarios interesados en conocer el tipo de cambio actualizado del dólar en Argentina, como inversores, turistas, empresarios, y ciudadanos en general.
+3. Funcionalidades principales:
+   - Informar sobre el tipo de cambio actualizado del dólar estadounidense en Argentina, tanto para la compra como para la venta.
+   - Herramienta de conversión de divisas para permitir a los usuarios calcular el valor en diferentes cotizaciones.
+4. Diseño:
+   - Interfaz simple y fácil de usar, con un diseño limpio y atractivo.
+   - Accesibilidad: la aplicación se adapta a diferentes tamaños de pantalla y es compatible con diferentes navegadores web y dispositivos móviles.
+5. Fuentes de datos: La aplicación se basa en el Swagger desarrollado por [enzonotario](https://github.com/enzonotario/esjs-dolar-api) que a su vez obtiene información actualizada sobre el tipo de cambio del dólar desde la página de [Dolar Hoy](https://www.dolarhoy.com/)
 
-### `npm test`
+## Resumen
+La aplicación "Dolar App" proporcionará información actualizada sobre el tipo de cambio del dólar estadounidense en Argentina y una calculadora de conversión de divisas para permitir a los usuarios convertir fácilmente entre pesos y dólares.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tecnologías utilizadas
+- React
+- API obtenida de: [Dólar API Argentina](https://dolar-api-argentina.vercel.app/#/)
+- Tailwind CSS

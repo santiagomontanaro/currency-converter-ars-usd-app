@@ -1,0 +1,90 @@
+/* primary colors */
+/* neutral colors */
+/* main font */
+@font-face {
+  font-family: "Graphie-bold";
+  src: url("../fonts/Graphie/Graphie-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Graphie-book";
+  src: url("../fonts/Graphie/Graphie-Book.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Graphie-extraBold";
+  src: url("../fonts/Graphie/Graphie-ExtraBold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Graphie-extraLight";
+  src: url("../fonts/Graphie/Graphie-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Graphie-light";
+  src: url("../fonts/Graphie/Graphie-Light.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Graphie-regular";
+  src: url("../fonts/Graphie/Graphie-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Graphie-semiBold";
+  src: url("../fonts/Graphie/Graphie-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Graphie-thin";
+  src: url("../fonts/Graphie/Graphie-Thin.otf") format("opentype");
+  font-weight: 100;
+}
+body {
+  font-family: "Graphie-bold", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.App {
+  gap: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 200vh;
+  width: 100%;
+  background-color: #141518;
+}
+.App .App__noise {
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../img/noise-bg.png");
+  opacity: 0.03;
+}
+.App .App__container {
+  gap: 0;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  z-index: 100;
+}
+
+/* media query for desktop */
+@media (min-width: 900px) {
+  .App {
+    min-height: 100vh;
+  }
+  .App .App__container {
+    gap: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+  }
+}/*# sourceMappingURL=App.module.css.map */
