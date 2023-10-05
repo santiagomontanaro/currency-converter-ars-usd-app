@@ -9,7 +9,7 @@
 4. Design:
    - Simple and user-friendly interface with a clean and attractive design.
    - Accessibility: the app is responsive to different screen sizes and compatible with different web browsers and mobile devices.
-5. Data sources: The app relies on the Swagger app developed by [enzonotario](https://github.com/enzonotario/esjs-dolar-api), which in turn obtains updated information on the exchange rate of the US dollar from the [Dolar Hoy](https://www.dolarhoy.com/) website.
+5. Data sources: The app relies on the Swagger app developed by [enzonotario](https://github.com/enzonotario/esjs-dolar-api), which obtains updated information on the exchange rate of the US dollar from the [Dolar Hoy](https://www.dolarhoy.com/) website.
 
 ## Conversion tool
 Users will be able to enter the amount of pesos or dollars they want to convert, and the calculator will instantly provide the equivalent amount in the other currency, using the app's updated exchange rate. This currency conversion tool will be very useful for users who need to transact in different currencies, whether it be for online purchases, international travel, or financial operations in different markets. 
